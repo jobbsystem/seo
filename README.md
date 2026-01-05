@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Byt src till exakt URL för bilden du laddar upp i GitHub -->
-  <img width="1200" alt="ORIGIN kundportal" src="https://github.com/user-attachments/assets/REPLACE_ME_WITH_IMAGE_ID" />
+  <img width="1200" alt="ORIGIN kundportal" src="[https://github.com/user-attachments/assets/REPLACE_ME_WITH_IMAGE_ID](https://drive.google.com/file/d/1V9xnwqMsgwml5brZkPZiUtory2SPV-_8/view?usp=sharing)" />
 </div>
 
 <br />
