@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Byt src till exakt URL för bilden du laddar upp i GitHub -->
-  <img width="1200" alt="ORIGIN kundportal" src="https://ibb.co/nqkHbhwg" />
+  <img width="1200" alt="ORIGIN kundportal" src="https://i.ibb.co/9mYFNRp8/11.png" />
 </div>
 
 <br />
