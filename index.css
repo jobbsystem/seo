@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --bg: 245 246 248;
+  --surface: 255 255 255;
+  --text: 15 23 42;
+  --muted: 107 114 128;
+  --accent: 0 100 225;
+  --success: 52 199 89;
+  --warning: 255 159 10;
+  --danger: 255 59 48;
+  --border: 15 23 42;
+  --border-subtle-alpha: 0.06;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: 18 20 25;
+    --surface: 28 30 36;
+    --text: 255 255 255;
+    --muted: 170 174 186;
+    --accent: 0 100 225;
+    --success: 52 199 89;
+    --warning: 255 159 10;
+    --danger: 255 59 48;
+    --border: 255 255 255;
+    --border-subtle-alpha: 0.10;
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: rgb(var(--bg));
+  color: rgb(var(--text) / 0.9);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.cta-outline {
+  background-color: rgba(255, 255, 255, 0.98);
+  color: rgba(15, 23, 42, 0.95);
+  box-shadow: inset 0 0 0 1.5px rgba(79, 110, 247, 0.35),
+    0 14px 32px rgba(15, 23, 42, 0.16);
+}
+
+.cta-outline:hover {
+  background-color: rgb(var(--accent));
+  color: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.18);
+}
